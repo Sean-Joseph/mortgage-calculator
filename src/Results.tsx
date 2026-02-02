@@ -25,7 +25,7 @@ export default function Results({ submitted, mortgageCost, totalMortgageCost}: R
       </div>
       </> : 
       ( <div className="results">
-          <img className="avatar" src="/public/calculator.png" />
+          <img className="calculator" src="/calculator.png" />
           <div>
             <h1>Results shown here</h1>
             <p>Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
