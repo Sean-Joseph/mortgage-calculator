@@ -30,7 +30,7 @@ type FormData = {
 export default function Information({formData, setFormData, setSubmitted, mortgageCost, setMortgageCost, setTotalMortgageCost}: InfoProps) {
 
 const [errors, setErrors] = useState<FormErrors>({});
-const [ , setIsFocused ] = useState(false);
+const [ ,setIsFocused ] = useState(false);
 
   // Clears the form
   function clearForm() {
